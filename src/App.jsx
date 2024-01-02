@@ -8,10 +8,12 @@ import Portfolio from "./components/portfolio/Portfolio";
 // import Testimonials from './components/testimonials/Testimonials'
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const App = () => {
   return (
     <div>
+      <SpeedInsights />
       <Header />
       <Nav />
       <About />
